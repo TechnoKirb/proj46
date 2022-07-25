@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: vollkorn;
+  src: url(./assets/Vollkorn-Bold.ttf);
+}
+
+canvas {
+  display: block;
+}
+
+
+
+.greeting{
+  font-size: 160px;
+  color: rgb(0, 0, 0);
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.customInput {
+  width:200px;
+  height:30px;
+  border: 10px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  background-color:transparent;
+  font-size: 25px;
+  outline:none;
+  color:rgb(0, 0, 0);
+  font-family: vollkorn;
+  text-align: center;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 0.5; 
+}
+
+.customButton {
+  width:180px;
+  height:50px;
+  background-color: #fea834;
+  border: 0px solid white;
+  color: #FFFF;
+  font-weight:bold;
+  border-radius: 0px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: vollkorn;
+  margin: 5px 5px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+  outline: none;
+}
+
+
+.resetButton {
+  width:100px;
+  height:100px;
+  background-image: url('buton.jpg');
+  background-size: cover;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+  outline: none;
+}
+
